@@ -2,7 +2,7 @@
 
 Kindly open the "MSc Thesis.pdf" to read the research paper on this project.
 
-Introduction
+## Introduction
 
 The covid-19 virus has caused one of the worst pandemic in history. Various countries have taken the route of 
 Contact Tracing to control the infection rate of Covid-19. To achieve this aim of contact tracing, several mobile 
@@ -27,7 +27,7 @@ into the minds of the people reviewing the NHS COVID-19 APP. For those topics wh
 achieves low accuracy, the reasons will be discussed, and we will understand why those topics are more important 
 than the ones for which we have achieved higher accuracies.
 
-Code execution
+## Code execution
 
 All the required code and files for this project are inside the folder named "code_files". Inside "code_files" there are four folders and ten files and I will now give details about each file and folder. This project was done on 
 Jupyter Notebook. There are three Jupyter files named ScrapingData.ipynb,
