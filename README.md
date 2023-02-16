@@ -43,15 +43,15 @@ summary files whenever the TensorFlow training model is run. Logs folders should
 files are not used in this project. Covid19_GooglePlayData.csv, covid19_googleplaydata_with_topics1.csv
 and covid19_googleplaydata_with_topics2.csv are the output files that we will get after we run the Jupyter 
 Files.
-The steps to run the code are as follows:
+The steps to run the code are as follows:  
 • First, run the ScrapingData.ipynb. This file will scrape the NHS COVID-19 app user reviews on the 
 google play store and save it in a CSV file named Covid19_GooglePlayData.csv. Libraries needed 
-to run this code are google_play_scraper, Pandas and NumPy.
+to run this code are google_play_scraper, Pandas and NumPy.  
 • Then run the SentimentclassificationOfUserReviews.ipynb file.This file is being used to train and 
 test the sentiment classifier model. We need t2_data_train.tsv and t2_data_test.tsv files as these files 
 contain the datasets on which the sentiment classifier model is trained and tested. The Trained model 
 will be saved in the ‘trainedmodel’ folder. Libraries required to run this Jupyter file are transformers, 
-TensorFlow, pandas, NumPy, matplotlib, and sklearn.
+TensorFlow, pandas, NumPy, matplotlib, and sklearn.  
 • Finally, we need to run the TopicWiseTemporalSentimentAnalysis.ipynb Jupyter file. We will also 
 need Covid19_GooglePlayData.csv, which contains the dataset for which we perform Topic-wise 
 Temporal Sentiment Analysis. The sentiment classifier model saved in the ‘trainedmodel’ will be 
@@ -62,4 +62,4 @@ Topic Extraction model (BERTopic) was used with its default hyper-parameters.
 covid19_googleplaydata_with_topics2.csv includes the user reviews and the topics extracted after 
 tuning the hyper-parameters of BERTopic. Libraries needed to run 
 TopicWiseTemporalSentimentAnalysis.ipynb are regular expressions, pandas, NumPy, BERTopic, 
-hdbscan, matplotlib, sklearn, transformers and TensorFlow
+hdbscan, matplotlib, sklearn, transformers and TensorFlow.  
